@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageButton
+        android:id="@+id/upward"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="221dp"
+        android:src="@drawable/ic_baseline_arrow_upward_24" />
+
+    <ImageButton
+        android:id="@+id/down"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_baseline_arrow_downward_24" />
+
+    <ImageButton
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="165dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/ic_baseline_arrow_forward_24" />
+
+    <ImageButton
+        android:id="@+id/left"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="65dp"
+        android:layout_toStartOf="@+id/right"
+        android:layout_toLeftOf="@+id/right"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginBottom="124dp"
+        android:background="#737171"
+        android:text="정지" />
+
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="블루투스 연결"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="230dp"
+        />
+</RelativeLayout>
