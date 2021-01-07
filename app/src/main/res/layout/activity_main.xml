@@ -77,4 +77,23 @@
         android:layout_marginTop="50dp"
         android:layout_marginLeft="230dp"
         />
+
+    <Button
+        android:id="@+id/blutoothOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="블루투스 해제"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="530dp"
+        />
+
+    <Button
+        android:id="@+id/blutoothOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="블루투스 활성화"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="370dp"
+        />
+
 </RelativeLayout>
